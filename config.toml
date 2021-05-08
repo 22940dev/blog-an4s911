@@ -21,12 +21,12 @@ disqusShortname = "yourdiscussshortname"
   #avatarurl = "images/avatar.jpg"
   gravatar = "nasbas23@gmail.com"
 
-  # favicon_32 = "/img/favicon-32x32.png"
-  # favicon_16 = "/img/favicon-16x16.png"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
 
   footercontent = "Hosted using Netlify"
   hideFooter = false
-  hideCredits = false
+  hideCredits = true
   hideCopyright = false
   since = 2021
 
@@ -52,6 +52,11 @@ disqusShortname = "yourdiscussshortname"
   weight = 1
   url = "https://github.com/an4s911/"
 [[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/an4s911/"
+[[params.social]]
   name = "LinkedIn"
   icon = "fa fa-linkedin fa-2x"
   weight = 2
@@ -61,11 +66,6 @@ disqusShortname = "yourdiscussshortname"
   icon = "fa fa-instagram fa-2x"
   weight = 2
   url = "https://www.instagram.com/an4s911/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/an4s911/"
 
 # Menu links
 [[menu.main]]
