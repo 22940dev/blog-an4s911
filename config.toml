@@ -1,0 +1,73 @@
+baseURL = "https://anasbasheer.tech"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "hugo-coder"
+defaultcontentlanguage = "en"
+
+
+paginate = 20
+
+#pygmentsstyle = "bw"
+#pygmentscodefences = true
+#pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Anas Basheer"
+  info = "Python Developer"
+  description = "Anas Basheer's personal website"
+  keywords = "blog,developer,personal"
+  #avatarurl = "images/avatar.jpg"
+  gravatar = "nasbas23@gmail.com"
+
+  # favicon_32 = "/img/favicon-32x32.png"
+  # favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Hosted using Netlify"
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2021
+
+  enableTwemoji = false
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/an4s911/"
+# [[params.social]]
+#   name = "Gitlab"
+#   icon = "fa fa-gitlab fa-2x"
+#   weight = 2
+#   url = "https://gitlab.com/an4s911/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/an4s911/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
