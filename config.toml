@@ -1,6 +1,6 @@
 baseURL = "https://anasbasheer.tech"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Anas Basheer"
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
 
