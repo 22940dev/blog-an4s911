@@ -1,0 +1,16 @@
+<li>
+  <span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006" ) }}</span>
+  <a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}
+    <div>
+      {{ if .Params.featuredImage }}
+        <img src='{{ .Params.featuredImage }}' class="featuredImage" alt="Featured image" height="250px"/>
+      {{ end }}
+    </div>
+  </a>
+</li>
+<style>
+  .featuredImage:hover {
+    filter: brightness(70%) blur(0.5px);
+    transition: 0.25s;
+  }
+</style>
