@@ -10,6 +10,7 @@ categories = ['test']
 externalLink = ""
 series = []
 disqus_title = 'Comments'
+featuredImage = "img/banner.png"
 +++
 Hello test site 
 This is my test dont humiliate me. Sorry, I am hiding!!!!
