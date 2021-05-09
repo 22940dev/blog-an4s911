@@ -20,7 +20,7 @@ This is my test dont humiliate me. Sorry, I am hiding!!!!
     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
     
     var disqus_config = function () {
-    this.page.url = 'anasbasheer.tech/posts/my-first-post/';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.url = 'https://anasbasheer.tech/posts/my-first-post/';  // Replace PAGE_URL with your page's canonical URL variable
     this.page.identifier = '-'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
     };
     
@@ -32,3 +32,4 @@ This is my test dont humiliate me. Sorry, I am hiding!!!!
     })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<script id="dsq-count-scr" src="//anasbasheer-tech.disqus.com/count.js" async></script>
