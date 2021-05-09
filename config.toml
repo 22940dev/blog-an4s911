@@ -4,14 +4,13 @@ title = "Anas Basheer"
 theme = "hugo-coder"
 defaultcontentlanguage = "en"
 
-
 paginate = 20
 
-#pygmentsstyle = "bw"
-#pygmentscodefences = true
-#pygmentscodefencesguesssyntax = true
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-disqusShortname = "anas_basheer"
+#disqusShortname = "anas_basheer"
 
 [params]
   author = "Anas Basheer"
@@ -31,7 +30,6 @@ disqusShortname = "anas_basheer"
   since = 2021
 
   enableTwemoji = true
-  commit = "https://github.com/luizdepra/hugo-coder/tree/"
 
   colorScheme = "auto"
   hidecolorschemetoggle = false
