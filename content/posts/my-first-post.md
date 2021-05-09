@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2021-05-08T23:20:34+03:00
-title = "My First Post"
+title = "Introduction (test)"
 description = ""
 slug = ""
 authors = []
@@ -10,7 +10,8 @@ categories = ['test']
 externalLink = ""
 series = []
 disqus_title = 'Comments'
-featuredImage = "img/banner.png"
 +++
-Hello test site 
-This is my test dont humiliate me. Sorry, I am hiding!!!!
+# Test Blog
+Hope all are doing Good. I would like to thank all of you for visiting my page. This is only a test blog to see how it works and as a matter of fact my first blog ever, on this site as well as on any site. Hopefully my blog journey'll go well. If any one would like to improve this site or is interested in publishing blogs on this site please feel free to do so by going to my GitHub repo and making a **PULL REQUEST**. [GitHub](https://github.com/an4s911/blog-site).
+
+Thank You ✌🏼.
