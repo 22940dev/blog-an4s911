@@ -20,10 +20,10 @@ disqusShortname = "anas-basheer"
   #avatarurl = "images/avatar.jpg"
   gravatar = "nasbas23@gmail.com"
 
-  favicon_32 = "./img/favicon-32x32.png"
-  favicon_16 = "./img/favicon-16x16.png"
+  favicon_32 = "img/favicon-32x32.png"
+  favicon_16 = "img/favicon-16x16.png"
 
-  footercontent = "Hosted using Netlify"
+  footercontent = "Hosted using <a href='https://netlify.app/' target='_blank'>Netlify</a>."
   hideFooter = false
   hideCredits = true
   hideCopyright = false
@@ -68,14 +68,18 @@ disqusShortname = "anas-basheer"
 
 # Menu links
 [[menu.main]]
-  name = "Blog"
+  name = "Home"
   weight = 1
+  url = "/"
+[[menu.main]]
+  name = "Blog"
+  weight = 2
   url  = "posts/"
 [[menu.main]]
   name = "Projects"
-  weight = 2
+  weight = 3
   url = "projects/"
 [[menu.main]]
   name = "About"
-  weight = 3
+  weight = 4
   url = "about/"
