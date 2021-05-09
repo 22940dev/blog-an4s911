@@ -10,7 +10,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-#disqusShortname = "anas_basheer"
+disqusShortname = "anas-basheer"
 
 [params]
   author = "Anas Basheer"
