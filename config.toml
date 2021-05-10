@@ -1,85 +1,137 @@
 baseURL = "https://anasbasheer.tech"
-languageCode = "en-us"
+# [en, zh-cn, fr, ...] determines default content language
+defaultContentLanguage = "en"
+# language code
+languageCode = "en"
 title = "Anas Basheer"
-theme = "hugo-coder"
-defaultcontentlanguage = "en"
-
-paginate = 20
-
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
-disqusShortname = "anas-basheer"
+description = "My Personal Portfolio"
+# Change the default theme to be use when building the site with Hugo
+theme = "uBlogger"
 
 [params]
-  author = "Anas Basheer"
-  info = "Python Developer"
-  description = "Anas Basheer's personal website"
-  keywords = "blog,developer,personal"
-  #avatarurl = "images/avatar.jpg"
-  gravatar = "nasbas23@gmail.com"
+  # uBlogger theme version
+  version = "2.0.X"
+  dateFormat = "January 02, 2006"
+  [params.social]
+    GitHub = 'an4s911'
+    LinkedIn = 'an4s911'
+    Instagram = 'an4s911'
+    Twitter = 'an4s911'
+    Email = 'admin@anasbasheer.tech'
 
-  favicon_32 = "img/favicon-32x32.png"
-  favicon_16 = "img/favicon-16x16.png"
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    placeholder = "Search Site"
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = 'em'
+    absoluteURL = false
+    [params.search.algolia]
+      index = ""
+      appID = ""
+      searchKey = ""
 
-  footercontent = "Hosted using <a href='https://netlify.app/' target='_blank'>Netlify</a>."
-  hideFooter = false
-  hideCredits = true
-  hideCopyright = false
-  since = 2021
+  [params.header]
+    desktopMode = 'fixed'
 
-  enableTwemoji = true
+    [params.header.title]
+      logo = '/favicon.ico'
+      name = "Anas Basheer"
+      pre = "    "
 
-  colorScheme = "auto"
-  hidecolorschemetoggle = false
+  [params.footer]
+    custom = "Created by <a href='https://twitter.com/an4s911'>Anas Basheer</a>"
+    enable = true
+    hugo = false
+    author = true
+    copyright = true
 
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
+  [params.home]
+    [params.home.profile]
+      enable = true
+      gravatarEmail = "nasbas23@gmail.com"
+      title = 'Anas Basheer'
+      subtitle = 'Python Developer'
+      social = true
 
-[taxonomies]
-  category = "categories"
-  series = "series"
-  tag = "tags"
-  author = "authors"
+    [params.home.posts]
+      enable = true
+      paginate = 6
+      defaultHiddenFromPage = false
 
-# Social links
-[[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/an4s911/"
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  url = "https://twitter.com/an4s911/"
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  weight = 2
-  url = "https://www.linkedin.com/in/an4s911/"
-[[params.social]]
-  name = "Instagram"
-  icon = "fa fa-instagram fa-2x"
-  weight = 2
-  url = "https://www.instagram.com/an4s911/"
+  [params.timeAgo]
+    enable = "true"
 
-# Menu links
-[[menu.main]]
-  name = "Home"
-  weight = 1
-  url = "/"
-[[menu.main]]
-  name = "Blog"
-  weight = 2
-  url  = "posts/"
-[[menu.main]]
-  name = "Projects"
-  weight = 3
-  url = "projects/"
-[[menu.main]]
-  name = "About"
-  weight = 4
-  url = "about/"
+  [params.page]
+    [params.page.share]
+      enable = true
+      Twitter = true
+      WhatsApp = true
+      LinkedIn = true
+      Pocket = true
+
+  [params.comment]
+    enable = true
+    [params.comment.remark42]
+      enable = false
+    [params.comment.disqus]
+      enable = true
+      shortname = 'anas-basheer'
+    [params.comment.utterances]
+      enable = true
+      repo = 'an4s911/blog-site'
+      lightTheme = 'github-light'
+      darkTheme = 'github-dark'
+
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    name = "Posts"
+    url = "/posts/"
+    # title will be shown when you hover on this menu link
+    title = "Blog Posts"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    pre = ""
+    post = ""
+    name = "Tags"
+    url = "/tags/"
+    title = ""
+    weight = 2
+  [[menu.main]]
+    identifier = "categories"
+    pre = ""
+    post = ""
+    name = "Categories"
+    url = "/categories/"
+    title = ""
+    weight = 3
+  [[menu.main]]
+    identifier = 'issues'
+    name = "Issues"
+    url = "/issues"
+    title = "Issues"
+    weight = 4
+
+# Markup related configuration in Hugo
+[markup]
+  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+  [markup.highlight]
+    # false is a necessary configuration
+    noClasses = false
+
+# Search
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+#Permalinks config
+[Permalinks]
+  posts = ":year/:month/:filename"
