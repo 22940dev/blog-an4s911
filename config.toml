@@ -111,7 +111,6 @@ theme = "LoveIt"
       shortname = 'anas-basheer'
     [params.page.comment.utterances]
       enable = true
-      label = "Bug Repors and Errors"
       repo = 'an4s911/blog-site'
       lightTheme = 'github-light'
       darkTheme = 'github-dark'
