@@ -6,19 +6,21 @@ languageCode = "en"
 title = "Anas Basheer"
 description = "My Personal Portfolio"
 # Change the default theme to be use when building the site with Hugo
-theme = "uBlogger"
+theme = "LoveIt"
+
 
 [params]
   # uBlogger theme version
-  version = "2.0.X"
+  version = "0.2.X"
   dateFormat = "January 02, 2006"
+
   [params.social]
     GitHub = 'an4s911'
     LinkedIn = 'an4s911'
     Instagram = 'an4s911'
     Twitter = 'an4s911'
     Email = 'admin@anasbasheer.tech'
-
+  
   [params.search]
     enable = true
     type = "lunr"
@@ -85,7 +87,6 @@ theme = "uBlogger"
       lightTheme = 'github-light'
       darkTheme = 'github-dark'
 
-
 [menu]
   [[menu.main]]
     identifier = "posts"
@@ -94,7 +95,7 @@ theme = "uBlogger"
     # you can add extra information after the name (HTML format is supported), such as icons
     post = ""
     name = "Posts"
-    url = "/posts/"
+    url = "posts/"
     # title will be shown when you hover on this menu link
     title = "Blog Posts"
     weight = 1
@@ -103,7 +104,7 @@ theme = "uBlogger"
     pre = ""
     post = ""
     name = "Tags"
-    url = "/tags/"
+    url = "tags/"
     title = ""
     weight = 2
   [[menu.main]]
@@ -111,13 +112,13 @@ theme = "uBlogger"
     pre = ""
     post = ""
     name = "Categories"
-    url = "/categories/"
+    url = "categories/"
     title = ""
     weight = 3
   [[menu.main]]
     identifier = 'issues'
     name = "Issues"
-    url = "/issues"
+    url = "issues/"
     title = "Issues"
     weight = 4
 
