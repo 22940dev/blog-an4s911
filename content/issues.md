@@ -1,6 +1,6 @@
 ---
-title: "Issues"
 {
+	'title': "Issues",
 	'comment': {
 		'disqus': {
 			'enable': false,
