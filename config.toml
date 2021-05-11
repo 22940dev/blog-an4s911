@@ -9,10 +9,13 @@ description = "My Personal Portfolio"
 theme = "LoveIt"
 
 
+
 [params]
-  # uBlogger theme version
-  version = "0.2.X"
   dateFormat = "January 02, 2006"
+  # LoveIt theme version
+  version = "0.2.X"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "auto"
 
   [params.social]
     GitHub = 'an4s911'
@@ -36,7 +39,10 @@ theme = "LoveIt"
       searchKey = ""
 
   [params.header]
-    desktopMode = 'fixed'
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
 
     [params.header.title]
       logo = '/favicon.ico'
@@ -49,6 +55,16 @@ theme = "LoveIt"
     hugo = false
     author = true
     copyright = true
+
+  [params.section]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
+
+  [params.list]
+    paginate = 20
+    dateFormat = "01-02"
+    rss = 10
 
   [params.home]
     [params.home.profile]
@@ -67,6 +83,20 @@ theme = "LoveIt"
     enable = "true"
 
   [params.page]
+    hiddenFromHomePage = false
+    hiddenFromSearch = false
+    twemoji = false
+    lightgallery = false
+    ruby = true
+    fraction = true
+    fontawesome = true
+    linkToMarkdown = true
+    rssFullText = false
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+
     [params.page.share]
       enable = true
       Twitter = true
@@ -74,18 +104,30 @@ theme = "LoveIt"
       LinkedIn = true
       Pocket = true
 
-  [params.comment]
+  [params.page.comment]
     enable = true
-    [params.comment.remark42]
-      enable = false
-    [params.comment.disqus]
+    [params.page.comment.disqus]
       enable = true
       shortname = 'anas-basheer'
-    [params.comment.utterances]
+    [params.page.comment.utterances]
       enable = true
+      label = "Bug Repors and Errors"
       repo = 'an4s911/blog-site'
       lightTheme = 'github-light'
       darkTheme = 'github-dark'
+
+  # TypeIt config
+  [params.typeit]
+    # typing speed between each step (measured in milliseconds)
+    speed = 100
+    # blinking speed of the cursor (measured in milliseconds)
+    cursorSpeed = 1000
+    # character used for the cursor (HTML format is supported)
+    cursorChar = "|"
+    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
+    duration = -1
+
+
 
 [menu]
   [[menu.main]]
