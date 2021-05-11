@@ -3,7 +3,10 @@
 	'comment': {
 		'disqus': {
 			'enable': false,
-	}
+	},
+		'utterances': {
+			'label': 'Bug Reports and Errors'
+}
 }
 }
 ---
