@@ -6,9 +6,10 @@
 			'enable': false,
 	},
 		'utterances': {
+			'enable': true,
 			'label': 'Bug Reports and Errors'
 }
-}
+},	'images': ['/favicon.jpg']
 }
 ---
 # Issues
