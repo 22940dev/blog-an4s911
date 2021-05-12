@@ -1,16 +1,18 @@
 ---
-title: "Introduction"
-subtitle: "Just introducing everyone to my blog to point out why this site beginning with some of the worst jokes anyone could've heard of. Just don't forget to laugh when you're there."
+title: Introduction
+subtitle: Just introducing everyone to my blog to point out why this site beginning
+  with some of the worst jokes anyone could've heard of. Just don't forget to laugh
+  when you're there.
 date: 2021-05-10T05:32:54.000+03:00
 lastmod: 2021-05-10T05:32:54.000+03:00
-draft: false
 author: Anas Basheer
 description: Introduction
 page:
   theme: wide
 upd: ''
 authorComment: ''
-tags: [intro]
+tags:
+- intro
 categories: []
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -30,6 +32,8 @@ math:
 license: ''
 comment:
   disqus:
+    enable: true
+  utterances:
     enable: false
 
 ---
