@@ -32,10 +32,6 @@ license: ''
 comment:
   disqus:
     enable: false
-menu:
-  main:
-    name: Latest
-    weight: 5
 
 ---
 ## Introduction {#intro}
