@@ -1,0 +1,31 @@
+---
+label: page-template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: field_group
+  name: comment
+  label: comment
+  fields:
+  - type: field_group
+    name: disqus
+    label: disqus
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+  - type: field_group
+    name: utterances
+    label: utterances
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
+    - type: text
+      name: label
+      label: label
+- type: image_gallery
+  name: images
+  label: images
