@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
+title: "Template"
 subtitle: ""
-date: {{ .Date }}
-lastmod: {{ .Date }}
+date: 2021-05-12T15:37:26+03:00
+lastmod: 2021-05-12T15:37:26+03:00
 draft: true
 author: ""
 authorLink: ""
@@ -20,7 +20,7 @@ resources:
 - name: featured-image-preview
   src: featured-image-preview.jpg
 
-featuredImage: ""
+featuredImage: "/img/code.png"
 featuredImagePreview: ""
 images: [""]
 
@@ -39,7 +39,6 @@ comment: {
 }
 }
 ---
-
-
+Template page
 ---
 <!--more-->
