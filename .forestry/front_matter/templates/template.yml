@@ -84,13 +84,13 @@ fields:
     name: disqus
     label: disqus
     fields:
-    - type: text
-      name: enable
+    - name: enable
+      type: boolean
       label: enable
   - type: field_group
     name: utterances
     label: utterances
     fields:
-    - type: text
-      name: enable
+    - name: enable
+      type: boolean
       label: enable
