@@ -54,7 +54,7 @@ hugo = false
 desktopMode = "fixed"
 mobileMode = "fixed"
 [params.header.title]
-logo = "/favicon.ico"
+logo = ""
 name = "Anas Basheer"
 pre = "    "
 [params.home.posts]
