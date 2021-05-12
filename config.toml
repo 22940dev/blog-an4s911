@@ -9,19 +9,13 @@ posts = ":filename"
 [markup.highlight]
 noClasses = false
 [[menu.main]]
-identifier = "issues"
-name = "Issues"
-title = "Issues"
-url = "issues/"
-weight = 4
-[[menu.main]]
-identifier = "categories"
-name = "Categories"
+identifier = "posts"
+name = "Posts"
 post = ""
 pre = ""
-title = ""
-url = "categories/"
-weight = 3
+title = "Blog Posts"
+url = "posts/"
+weight = 2
 [[menu.main]]
 identifier = "tags"
 name = "Tags"
@@ -29,15 +23,21 @@ post = ""
 pre = ""
 title = ""
 url = "tags/"
-weight = 2
+weight = 3
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
+identifier = "categories"
+name = "Categories"
 post = ""
 pre = ""
-title = "Blog Posts"
-url = "posts/"
-weight = 1
+title = ""
+url = "categories/"
+weight = 4
+[[menu.main]]
+identifier = "issues"
+name = "Issues"
+title = "Issues"
+url = "issues/"
+weight = 5
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 [params]
