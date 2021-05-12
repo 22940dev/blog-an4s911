@@ -1,179 +1,133 @@
 baseURL = "https://anasbasheer.tech"
-# [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "en"
-# language code
-languageCode = "en"
-title = "Anas Basheer"
 description = "My Personal Portfolio"
-# Change the default theme to be use when building the site with Hugo
+languageCode = "en"
 theme = "LoveIt"
-
-
-
-[params]
-  dateFormat = "January 02, 2006"
-  # LoveIt theme version
-  version = "0.2.X"
-  # site default theme ("light", "dark", "auto")
-  defaultTheme = "auto"
-
-  [params.social]
-    GitHub = 'an4s911'
-    LinkedIn = 'an4s911'
-    Instagram = 'an4s911'
-    Twitter = 'an4s911'
-    Email = 'admin@anasbasheer.tech'
-  
-  [params.search]
-    enable = true
-    type = "lunr"
-    contentLength = 4000
-    placeholder = "Search Site"
-    maxResultLength = 10
-    snippetLength = 30
-    highlightTag = 'em'
-    absoluteURL = false
-    [params.search.algolia]
-      index = ""
-      appID = ""
-      searchKey = ""
-
-  [params.header]
-    # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
-    # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
-
-    [params.header.title]
-      logo = '/favicon.ico'
-      name = "Anas Basheer"
-      pre = "    "
-
-  [params.footer]
-    custom = "Created by <a href='https://twitter.com/an4s911'>Anas Basheer</a>"
-    enable = true
-    hugo = false
-    author = true
-    copyright = true
-
-  [params.section]
-    paginate = 20
-    dateFormat = "01-02"
-    rss = 10
-
-  [params.list]
-    paginate = 20
-    dateFormat = "01-02"
-    rss = 10
-
-  [params.home]
-    [params.home.profile]
-      enable = true
-      gravatarEmail = "nasbas23@gmail.com"
-      title = 'Anas Basheer'
-      subtitle = 'Python Developer'
-      social = true
-
-    [params.home.posts]
-      enable = true
-      paginate = 6
-      defaultHiddenFromPage = false
-
-  [params.timeAgo]
-    enable = "true"
-
-  [params.page]
-    hiddenFromHomePage = false
-    hiddenFromSearch = false
-    twemoji = false
-    lightgallery = false
-    ruby = true
-    fraction = true
-    fontawesome = true
-    linkToMarkdown = true
-    rssFullText = false
-    [params.page.toc]
-      enable = true
-      keepStatic = false
-      auto = true
-
-    [params.page.share]
-      enable = true
-      Twitter = true
-      WhatsApp = true
-      LinkedIn = true
-      Pocket = true
-
-  [params.page.comment]
-    enable = true
-    [params.page.comment.disqus]
-      enable = true
-      shortname = 'anas-basheer'
-    [params.page.comment.utterances]
-      enable = true
-      repo = 'an4s911/blog-site'
-      lightTheme = 'github-light'
-      darkTheme = 'github-dark'
-
-  # TypeIt config
-  [params.typeit]
-    # typing speed between each step (measured in milliseconds)
-    speed = 100
-    # blinking speed of the cursor (measured in milliseconds)
-    cursorSpeed = 1000
-    # character used for the cursor (HTML format is supported)
-    cursorChar = "|"
-    # cursor duration after typing finishing (measured in milliseconds, "-1" means unlimited)
-    duration = -1
-
-
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "posts/"
-    # title will be shown when you hover on this menu link
-    title = "Blog Posts"
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "categories/"
-    title = ""
-    weight = 3
-  [[menu.main]]
-    identifier = 'issues'
-    name = "Issues"
-    url = "issues/"
-    title = "Issues"
-    weight = 4
-
-# Markup related configuration in Hugo
-[markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration
-    noClasses = false
-
-# Search
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
-
-#Permalinks config
+title = "Anas Basheer"
 [Permalinks]
-  posts = ":filename"
+posts = ":filename"
+[markup.highlight]
+noClasses = false
+[[menu.main]]
+identifier = "issues"
+name = "Issues"
+title = "Issues"
+url = "issues/"
+weight = 4
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+post = ""
+pre = ""
+title = ""
+url = "categories/"
+weight = 3
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+post = ""
+pre = ""
+title = ""
+url = "tags/"
+weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+post = ""
+pre = ""
+title = "Blog Posts"
+url = "posts/"
+weight = 1
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+[params]
+dateFormat = "January 02, 2006"
+defaultTheme = "auto"
+version = "0.2.X"
+[params.footer]
+author = true
+copyright = true
+custom = "Created by <a href='https://twitter.com/an4s911'>Anas Basheer</a>"
+enable = true
+hugo = false
+[params.header]
+desktopMode = "fixed"
+mobileMode = "auto"
+[params.header.title]
+logo = "/favicon.ico"
+name = "Anas Basheer"
+pre = "    "
+[params.home.posts]
+defaultHiddenFromPage = false
+enable = true
+paginate = 6
+[params.home.profile]
+enable = true
+gravatarEmail = "nasbas23@gmail.com"
+social = true
+subtitle = "Python Developer"
+title = "Anas Basheer"
+[params.list]
+dateFormat = "01-02"
+paginate = 20
+rss = 10
+[params.page]
+fontawesome = true
+fraction = true
+hiddenFromHomePage = false
+hiddenFromSearch = false
+lightgallery = false
+linkToMarkdown = true
+rssFullText = false
+ruby = true
+twemoji = false
+[params.page.comment]
+enable = true
+[params.page.comment.disqus]
+enable = true
+shortname = "anas-basheer"
+[params.page.comment.utterances]
+darkTheme = "github-dark"
+enable = true
+lightTheme = "github-light"
+repo = "an4s911/blog-site"
+[params.page.share]
+LinkedIn = true
+Pocket = true
+Twitter = true
+WhatsApp = true
+enable = true
+[params.page.toc]
+auto = true
+enable = true
+keepStatic = false
+[params.search]
+absoluteURL = false
+contentLength = 4000
+enable = true
+highlightTag = "em"
+maxResultLength = 10
+placeholder = "Search Site"
+snippetLength = 30
+type = "lunr"
+[params.search.algolia]
+appID = ""
+index = ""
+searchKey = ""
+[params.section]
+dateFormat = "01-02"
+paginate = 20
+rss = 10
+[params.social]
+Email = "admin@anasbasheer.tech"
+GitHub = "an4s911"
+Instagram = "an4s911"
+LinkedIn = "an4s911"
+Twitter = "an4s911"
+[params.timeAgo]
+enable = "true"
+[params.typeit]
+cursorChar = "|"
+cursorSpeed = 1000
+duration = -1
+speed = 100

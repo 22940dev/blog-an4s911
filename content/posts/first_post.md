@@ -1,47 +1,43 @@
 ---
-title: "Introduction"
-subtitle: "Just introducing everyone to my blog to point out why this site beginning with some of the worst jokes anyone could've heard of. Just don't forget to laugh when you're there."
-date: 2021-05-10T05:32:54+03:00
-lastmod: 2021-05-10T05:32:54+03:00
-draft: false
-author: "Anas Basheer"
-description: "Introduction"
-
+title: Introduction
+subtitle: Just introducing everyone to my blog to point out why this site beginning
+  with some of the worst jokes anyone could've heard of. Just don't forget to laugh
+  when you're there.
+date: 2021-05-10T05:32:54.000+03:00
+lastmod: 2021-05-10T05:32:54.000+03:00
+author: Anas Basheer
+description: Introduction
 page:
-    theme: "wide"
-
-upd: ""
-authorComment: ""
-
+  theme: wide
+upd: ''
+authorComment: ''
 tags: []
 categories: []
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
+- name: featured-image
+  src: featured-image.jpg
 - name: featured-image-preview
   src: featured-image-preview.jpg
-
 featuredImage: "/posts/img/banner.jpg"
 featuredImagePreview: "/posts/img/banner.jpg"
-images: [""]
-
+images:
+- ''
 toc:
   enable: true
 math:
   enable: false
+license: ''
+comment:
+  disqus:
+    enable: false
+menu:
+  main:
+    name: Latest
+    weight: 5
 
-license: ""
-
-comment: {
-	'disqus': {
-		'enable': false
-}}
 ---
-
 ## Introduction {#intro}
 
 So, well here it is once more, about the undecillionth[^1] time writing the introduction. So basically this is my first blog ever on any site[^2]. This website is gonna be used for my blogging and as my portfolio to display my projects for potential, existing clients or just another pedestrian walking across the web to take a peek. I am also trying a few basic markdown features like footnotes. Thats why there are some irrelevant footnotes[^3].
