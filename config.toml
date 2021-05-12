@@ -52,7 +52,7 @@ enable = true
 hugo = false
 [params.header]
 desktopMode = "fixed"
-mobileMode = "auto"
+mobileMode = "fixed"
 [params.header.title]
 logo = "/favicon.ico"
 name = "Anas Basheer"
