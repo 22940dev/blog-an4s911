@@ -1,0 +1,94 @@
+---
+label: post-template
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: subtitle
+  label: subtitle
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: lastmod
+  label: lastmod
+- type: text
+  name: author
+  label: author
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: page
+  label: page
+  fields:
+  - type: text
+    name: theme
+    label: theme
+- type: text
+  name: upd
+  label: upd
+- type: text
+  name: authorComment
+  label: authorComment
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: boolean
+  name: hiddenFromHomePage
+  label: hiddenFromHomePage
+- type: boolean
+  name: hiddenFromSearch
+  label: hiddenFromSearch
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: src
+    label: src
+- type: file
+  name: featuredImage
+  label: featuredImage
+- type: file
+  name: featuredImagePreview
+  label: featuredImagePreview
+- type: list
+  name: images
+  label: images
+- type: field_group
+  name: toc
+  label: toc
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+- type: field_group
+  name: math
+  label: math
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+- type: text
+  name: license
+  label: license
+- type: field_group
+  name: comment
+  label: comment
+  fields:
+  - type: field_group
+    name: disqus
+    label: disqus
+    fields:
+    - type: boolean
+      name: enable
+      label: enable
