@@ -48,8 +48,10 @@ fields:
 - type: file
   name: featuredImage
   label: featuredImage
-- type: text
-  name: featuredImagePreview
+- name: featuredimagepreview
+  type: file
+  config:
+    maxSize: 64
   label: featuredImagePreview
 - type: list
   name: images
