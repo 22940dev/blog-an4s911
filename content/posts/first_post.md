@@ -32,7 +32,7 @@ math:
 license: ''
 comment:
   disqus:
-    enable: true
+    enable: false
   utterances:
     enable: false
 
