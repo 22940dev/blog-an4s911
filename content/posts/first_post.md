@@ -34,7 +34,7 @@ comment:
   disqus:
     enable: false
   utterances:
-    enable: false
+    enable: true
 
 ---
 ## Introduction {#intro}
