@@ -1,6 +1,6 @@
-baseURL = "https://anasbasheer.tech"
+baseURL = "https://blog-an4s11.netlify.app"
 defaultContentLanguage = "en"
-description = "My Personal Portfolio"
+description = "Portfolio Single Page"
 languageCode = "en"
 theme = "LoveIt"
 title = "Anas Basheer"
@@ -47,7 +47,7 @@ version = "0.2.X"
 [params.footer]
 author = true
 copyright = true
-custom = "Created by <a href='https://twitter.com/an4s911'>Anas Basheer</a>"
+custom = "Created by <a href='https://twitter.com/Alec4354478'>22940dev</a>"
 enable = true
 hugo = false
 [params.header]
@@ -55,7 +55,7 @@ desktopMode = "fixed"
 mobileMode = "fixed"
 [params.header.title]
 logo = ""
-name = "Anas Basheer"
+name = "22940dev"
 pre = "    "
 [params.home.posts]
 defaultHiddenFromPage = false
@@ -63,10 +63,10 @@ enable = true
 paginate = 6
 [params.home.profile]
 enable = true
-gravatarEmail = "nasbas23@gmail.com"
+gravatarEmail = "freeunioncoder@gmail.com"
 social = true
-subtitle = "Python Developer"
-title = "Anas Basheer"
+subtitle = "Portfolios"
+title = "22940dev"
 [params.list]
 dateFormat = "01-02"
 paginate = 20
@@ -119,11 +119,10 @@ dateFormat = "01-02"
 paginate = 20
 rss = 10
 [params.social]
-Email = "admin@anasbasheer.tech"
-GitHub = "an4s911"
-Instagram = "an4s911"
-LinkedIn = "an4s911"
-Twitter = "an4s911"
+Email = "freeunioncoder@gmail.com"
+GitHub = "22940dev"
+LinkedIn = "doc22940"
+Twitter = "Alec4354478"
 [params.timeAgo]
 enable = "true"
 [params.typeit]
